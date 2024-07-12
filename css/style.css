@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: : 17px;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin: auto
+}
+
+section{
+    padding: 50px 0;
+}
+H1{font-size: 70PX;
+    font-family: "Mochiy Pop One", sans-serif;}
+H2{font-size:40PX;
+    font-family: "Mochiy Pop One", sans-serif;}
+H3{font-size: 30PX;
+    font-family: "Mochiy Pop One", sans-serif;}
+
+
+
+
+
+
+/* ==========Header Section========== */
+header{
+    background-image: url(../images/Front\ Page\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #000000ab;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+nav h4{
+    color:yellowgreen;
+    font-size: 25px;
+}
+nav h4 span{
+    font-weight:300;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 0 0 20px;
+    text-transform: capitalize;
+}
+nav ul li a{
+    color: yellowgreen;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* ==========banner section========= */
+.banner{
+    padding: 100px 0 150px;
+    text-align: center;
+    color:white;
+    padding: 200px 0 150px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+.banner span{
+    background-color:  red;
+    display: inline-block;
+    height:  5px;
+    width: 150px;
+    border-radius: 10px;
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner button{
+    background-color: #a11717;
+    color:  white;
+    padding:  15px 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border: 1px solid #a11717;
+    border-radius: 30px;
+    transition: all 0.4s linear;
+}
+.banner button:hover{
+    background-color: #a1171700;
+    letter-spacing: 4px;
+}
+
+
+/* ===========Upcoming Event Section========== */
+.event-main{
+    text-align: center;
+}
+.event-main h2{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.event-main Span{
+    background-color:  red;
+    display: inline-block;
+    height:  5px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px 0 30px 0;
+}
+
+.event{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+.event-box{
+    width: 50%;
+    margin: 20px;
+
+}
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10PX;
+    box-shadow: rgba(0, 0, 0, 0.15) 9px 9px 2.6px;
+}
+.event-box h4{
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+.event-box p{}
+.event-box a{
+    color:  red;
+    text-decoration: none;
+    letter-spacing:  2px;
+    font-size: 20px;
+}
+
+
+
+/* ==========EXPLORE THE WORLD========= */
+.explore-section{
+    background-image: url(../images/Explore\ the\ world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #301ed4ab;
+    color:white;
+    background-attachment: fixed;
+}
+.explore-main{
+    display:flex;
+    padding: 50px 0 70px 0;
+}
+.explore{
+    width:50%
+}
+.explore span{
+    background-color:  red;
+    display: inline-block;
+    height:  5px;
+    width: 150px;
+    border-radius: 10px;
+}
+.explore h1{
+    margin:0
+}
+.explore p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.explore a{
+    color:  rgb(102, 233, 15);
+    text-decoration: none;
+    letter-spacing:  2px;
+    font-size: 20px;
+}
+
+
+
+
+/* ==========TOURS & DESTINATION=========== */
+.tours-main{
+    display:flex;
+    margin-bottom: 50px;
+
+}
+.tour{
+    padding:20px
+
+}
+.tour img{}
+.tour h3{
+    margin:0
+}
+.tour span{
+    background-color:  red;
+    display: inline-block;
+    height:  5px;
+    width: 150px;
+    border-radius: 10px;
+}
+.tour p{
+    text-align: justify;
+    padding: 50px 0
+}
+.tour a{
+    color:  rgb(252, 4, 24);
+    text-decoration: none;
+    letter-spacing:  2px;
+    font-size: 20px;
+}
+.tour img{}
+.small{
+    height:300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+.large{
+    height:500px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* ===========footer=========== */
+.footer {
+    position: relative;
+    width: auto;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
